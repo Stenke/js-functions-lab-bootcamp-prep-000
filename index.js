@@ -6,8 +6,8 @@ var days = 21
 function happyHolidays() {
   return "Happy holidays!"
 }
-function happyHolidaysTo() {
-  console.log("Happy holidays, " name)
+function happyHolidaysTo(name) {
+  console.log(`Happy holidays, ${name}`)
 }
 function happyCustomHolidayTo(holiday, name) {
   console.log(`Happy ${holiday}, ${name}`)
