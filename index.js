@@ -6,7 +6,7 @@ var days = 20
 function happyHolidays() {
   return "Happy holidays!"
 }
-function happyHolidaysTo(name) {
+function happyHolidaysTo() {
   console.log(`Happy holidays, ${name}`)
 }
 function happyCustomHolidayTo(holiday, name) {
